@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Nder Piment – Sauce artisanale sénégalaise</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: #fff9ef;
+            padding: 20px;
+            color: #2d2a24;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 32px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            overflow: hidden;
+            padding: 24px 20px 40px;
+        }
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+            color: #b84c2c;
+            margin-bottom: 0.25rem;
+            letter-spacing: -0.5px;
+        }
+        .sub {
+            text-align: center;
+            font-weight: 500;
+            color: #6b4c3b;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #f3e0c0;
+            display: inline-block;
+            width: auto;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 6px;
+        }
+        .image-section {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            margin: 20px 0 28px;
+        }
+        .card-img {
+            background: #fef7e8;
+            border-radius: 28px;
+            padding: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        .card-img img {
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+            display: block;
+        }
+        .caption {
+            text-align: center;
+            margin-top: 12px;
+            font-size: 0.85rem;
+            color: #936e54;
+            font-weight: 500;
+        }
+        .info-grid {
+            background: #fdf6ed;
+            border-radius: 24px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .info-item {
+            margin-bottom: 18px;
+            border-left: 4px solid #e07c4c;
+            padding-left: 14px;
+        }
+        .info-item strong {
+            color: #b84c2c;
+            font-size: 1.1rem;
+            display: block;
+            margin-bottom: 6px;
+        }
+        .badge {
+            background: #e07c4c20;
+            color: #a14223;
+            padding: 4px 12px;
+            border-radius: 40px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            display: inline-block;
+            margin-right: 8px;
+        }
+        .benefits {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin: 20px 0;
+        }
+        .benefit {
+            background: white;
+            border-radius: 60px;
+            padding: 8px 18px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+            font-size: 0.9rem;
+            font-weight: 500;
+            border: 1px solid #ffe1c2;
+        }
+        .warning {
+            background: #fff0e0;
+            border-radius: 20px;
+            padding: 16px;
+            margin-top: 24px;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #b65932;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.7rem;
+            margin-top: 30px;
+            color: #bca78b;
+        }
+        hr {
+            margin: 20px 0;
+            border: none;
+            height: 1px;
+            background: #f0e2d0;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>NDER PIMENT</h1>
+    <div style="text-align:center"><span class="sub">Senegal – 100% artisanal</span></div>
+
+    <div class="image-section">
+        <div class="card-img">
+            <!-- Remplacez "image-produit.jpg" par le nom de votre premiere image (etiquette) -->
+            <img src="photo/NderPiment.jpeg" alt="Nder Piment - etiquette produit">
+            <div class="caption">Piment artisanal • Ail • Gingembre • Huile d'olive</div>
+        </div>
+        <div class="card-img">
+            <!-- Remplacez "image-bienfaits.jpg" par votre deuxieme image (bienfaits) -->
+            <img src="photo/biensFaits.jpeg" alt="Bienfaits des ingredients">
+            <div class="caption">Bienfaits naturels</div>
+        </div>
+    </div>
+
+    <div class="info-grid">
+        <div class="info-item"><strong>Composition</strong> Piment frais • Ail • Gingembre • Huile d'olive • Sel</div>
+        <div class="info-item"><strong>Utilisation</strong> Parfait avec riz, pates, viande, poisson – a utiliser comme sauce ou condiment.</div>
+        <div class="info-item"><strong>Conservation</strong> Garder au frais. Refermer apres usage, utiliser une cuillere propre.</div>
+        <div class="info-item"><strong>Histoire</strong> Inspire des femmes de Nder, symboles de courage et de resistance africaine.</div>
+    </div>
+
+    <h3 style="color:#b84c2c;">Les bienfaits de nos ingredients</h3>
+    <div class="benefits">
+        <span class="benefit">Piment – boost metabolisme & anti-douleur</span>
+        <span class="benefit">Gingembre – anti-inflammatoire, energie & digestion</span>
+        <span class="benefit">Ail – renforce l'immunite, antibacterien</span>
+        <span class="benefit">Huile d'olive – riche en antioxydants, bon coeur</span>
+    </div>
+    <p><span class="badge">Benefique pour</span> Diabete • Hypertension • Cholesterol • Douleurs articulaires</p>
+
+    <div class="warning">
+        <strong>A consommer avec moderation</strong><br>
+        Personnes sensibles, problemes digestifs, femmes enceintes, enfants.
+    </div>
+    <footer>Nder Piment – 100% naturel, fait main au Senegal</footer>
+</div>
+</body>
+</html>
